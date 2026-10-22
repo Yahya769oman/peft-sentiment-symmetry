@@ -75,3 +75,8 @@ Large model checkpoints and raw dataset copies are not distributed. A complete e
 ## Data and reuse
 
 The experiments use public SST-2 and IMDb datasets loaded through Hugging Face `datasets`. Results and scripts are included for inspection and reproducibility assessment. No software license is included; contact the authors to discuss permissions for reuse or redistribution. Third-party models and datasets are governed by their respective terms.
+
+
+## October 22, 2026 — supplementary equal-candidate experiment
+
+The supplementary **nine-candidate-per-method** tuning comparison was completed for both SST-2 and IMDb, followed by three-seed held-out evaluation for the newly selected Hybrid models. See [`docs/REVIEWER3_EQUAL_CANDIDATES_2026-10-22.md`](docs/REVIEWER3_EQUAL_CANDIDATES_2026-10-22.md) and [`outputs/reviewer3_8h_fair_hybrid/`](outputs/reviewer3_8h_fair_hybrid/). Verify the exported results from the repo root with `python tools/verify_reviewer3_20261022.py` (offline structural check only). This 2026-10-22 experiment is **different** from the earlier, incomplete `reviewer3_wide_lr_matched_hybrid` screen; it is not a full joint-factorial search or an equal-trainable-parameter design. Two SST-2 selection candidate records were explicitly recovered from terminal metrics after a JSON logging failure; they are not complete execution logs. Small Hybrid-versus-Prompt-only held-out mean differences do not establish statistical superiority.

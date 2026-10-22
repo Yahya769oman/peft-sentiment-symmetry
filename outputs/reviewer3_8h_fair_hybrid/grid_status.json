@@ -1,0 +1,9 @@
+[
+  {
+    "dataset": "sst2",
+    "hybrid_success": 9,
+    "hybrid_missing": 0,
+    "hybrid_failed": 0,
+    "baseline_selection_trials_each": 9
+  }
+]

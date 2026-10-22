@@ -1,0 +1,4 @@
+﻿dataset,method,requested_seed_count,completed_seed_count,paired_seeds,fully_completed,source,mean_accuracy,sd_accuracy,mean_macro_f1,sd_macro_f1
+sst2,hybrid,3,3,"42,123,2026",True,new tuned Hybrid runs,0.8706666666666667,0.0023094010767585054,0.8704901690961006,0.002222538061000043
+sst2,prefix_only,3,3,"42,123,2026",True,outputs\exp3_ablation_independent_tuning\ablation_tuned_official_results.json,0.838,0.0020000000000000018,0.8370657664603169,0.001978211177139471
+sst2,prompt_only,3,3,"42,123,2026",True,outputs\exp3_ablation_independent_tuning\ablation_tuned_official_results.json,0.8673333333333333,0.008082903768654767,0.867041006906219,0.00818964318506855

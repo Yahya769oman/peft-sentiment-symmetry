@@ -1,0 +1,3 @@
+dataset,method,seeds,source,mean_accuracy,sd_accuracy,mean_macro_f1,sd_macro_f1,derived_file
+sst2,hybrid,"[42, 123, 2026]","new tuned Hybrid individual heldout JSON records, not validation",0.8706666666666667,0.002309401076758505,0.8704901690961006,0.002222538061000043,True
+imdb,hybrid,"[42, 123, 2026]","new tuned Hybrid individual heldout JSON records, not validation",0.8066666666666666,0.011718930554164578,0.8065841625392297,0.01171205297332415,True

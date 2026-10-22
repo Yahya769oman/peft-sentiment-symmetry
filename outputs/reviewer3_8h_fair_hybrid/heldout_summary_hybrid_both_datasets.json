@@ -1,0 +1,32 @@
+[
+  {
+    "dataset": "sst2",
+    "method": "hybrid",
+    "seeds": [
+      42,
+      123,
+      2026
+    ],
+    "source": "new tuned Hybrid individual heldout JSON records, not validation",
+    "mean_accuracy": 0.8706666666666667,
+    "sd_accuracy": 0.002309401076758505,
+    "mean_macro_f1": 0.8704901690961006,
+    "sd_macro_f1": 0.002222538061000043,
+    "derived_file": true
+  },
+  {
+    "dataset": "imdb",
+    "method": "hybrid",
+    "seeds": [
+      42,
+      123,
+      2026
+    ],
+    "source": "new tuned Hybrid individual heldout JSON records, not validation",
+    "mean_accuracy": 0.8066666666666666,
+    "sd_accuracy": 0.011718930554164578,
+    "mean_macro_f1": 0.8065841625392297,
+    "sd_macro_f1": 0.01171205297332415,
+    "derived_file": true
+  }
+]

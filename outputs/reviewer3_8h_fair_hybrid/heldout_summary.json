@@ -1,0 +1,41 @@
+[
+  {
+    "dataset": "sst2",
+    "method": "hybrid",
+    "requested_seed_count": 3,
+    "completed_seed_count": 3,
+    "paired_seeds": "42,123,2026",
+    "fully_completed": true,
+    "source": "new tuned Hybrid runs",
+    "mean_accuracy": 0.8706666666666667,
+    "sd_accuracy": 0.0023094010767585054,
+    "mean_macro_f1": 0.8704901690961006,
+    "sd_macro_f1": 0.002222538061000043
+  },
+  {
+    "dataset": "sst2",
+    "method": "prefix_only",
+    "requested_seed_count": 3,
+    "completed_seed_count": 3,
+    "paired_seeds": "42,123,2026",
+    "fully_completed": true,
+    "source": "outputs\\exp3_ablation_independent_tuning\\ablation_tuned_official_results.json",
+    "mean_accuracy": 0.838,
+    "sd_accuracy": 0.0020000000000000018,
+    "mean_macro_f1": 0.8370657664603169,
+    "sd_macro_f1": 0.001978211177139471
+  },
+  {
+    "dataset": "sst2",
+    "method": "prompt_only",
+    "requested_seed_count": 3,
+    "completed_seed_count": 3,
+    "paired_seeds": "42,123,2026",
+    "fully_completed": true,
+    "source": "outputs\\exp3_ablation_independent_tuning\\ablation_tuned_official_results.json",
+    "mean_accuracy": 0.8673333333333333,
+    "sd_accuracy": 0.008082903768654767,
+    "mean_macro_f1": 0.867041006906219,
+    "sd_macro_f1": 0.00818964318506855
+  }
+]

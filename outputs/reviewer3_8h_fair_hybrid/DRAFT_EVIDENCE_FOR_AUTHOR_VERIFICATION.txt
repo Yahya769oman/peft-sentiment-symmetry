@@ -1,0 +1,7 @@
+Supplementary matched-candidate-count sensitivity (NOT a full joint grid)
+
+Validation selection used exactly nine candidates per method/dataset, with training seed 42, training-derived validation of 500 examples, 3,000 training examples, three epochs, and final-epoch Macro-F1 selection. For Hybrid, three predeclared paired (prefix,prompt) lengths were crossed with three learning rates; the component baselines each used three length choices crossed with the same three learning rates. The component baseline tuning/held-out results are reused from previously completed experiments; Hybrid was trained afresh. All held-out figures below are on the same fixed 500-example official split using matched model-training seeds. The comparison controls the NUMBER of tuning candidates, not the complete joint search space or tuning-history exposure.
+
+SST2: selection Macro-F1 — Hybrid=87.18%, Prefix-only=86.97%, Prompt-only=87.53%. Held-out accuracy (n=3 seeds, mean +/- SD) — Hybrid=87.07 +/- 0.23%; Prefix-only=83.80 +/- 0.20%; Prompt-only=86.73 +/- 0.81%. Hybrid selected lengths p=32, m=30 and LR=5e-04.
+
+Interpretation: The 9-candidate matching improves fairness of search opportunities relative to the original fixed-Hybrid ablation. It is still not a complete factorial joint prefix-by-prompt-by-learning-rate search, so no globally optimal Hybrid or universal synergy is claimed. Single-grid selection uses seed 42 and final estimates involve only 3 model-training seeds per dataset; any wider robustness claim would require more runs.

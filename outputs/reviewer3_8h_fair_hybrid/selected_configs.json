@@ -1,0 +1,116 @@
+{
+  "imdb": {
+    "dataset": "imdb",
+    "protocol": "9 candidate configurations each for prefix_only, prompt_only, hybrid; training-only validation; seed42; data seed 2026; 3 epochs",
+    "method_candidate_counts": {
+      "prefix_only": 9,
+      "prompt_only": 9,
+      "hybrid": 9
+    },
+    "hybrid_pairs": [
+      [
+        8,
+        10
+      ],
+      [
+        16,
+        20
+      ],
+      [
+        32,
+        30
+      ]
+    ],
+    "learning_rates": [
+      0.0001,
+      0.0003,
+      0.0005
+    ],
+    "is_full_joint_hybrid_grid": false,
+    "selection_rule": "last-epoch validation Macro-F1; validation accuracy tie-break",
+    "source_component_validation": "outputs\\exp3_ablation_independent_tuning\\ablation_tuning_results.json",
+    "selected": {
+      "prefix_only": {
+        "method": "prefix_only",
+        "prefix_length": 32,
+        "prompt_length": 0,
+        "learning_rate": 0.0005,
+        "validation_macro_f1": 0.8299666734679998,
+        "validation_accuracy": 0.83
+      },
+      "prompt_only": {
+        "method": "prompt_only",
+        "prefix_length": 0,
+        "prompt_length": 30,
+        "learning_rate": 0.0005,
+        "validation_macro_f1": 0.839874461577877,
+        "validation_accuracy": 0.84
+      },
+      "hybrid": {
+        "method": "hybrid",
+        "prefix_length": 32,
+        "prompt_length": 30,
+        "learning_rate": 0.0005,
+        "validation_macro_f1": 0.8477564102564102,
+        "validation_accuracy": 0.848
+      }
+    }
+  },
+  "sst2": {
+    "dataset": "sst2",
+    "protocol": "9 candidate configurations each for prefix_only, prompt_only, hybrid; training-only validation; seed42; data seed 2026; 3 epochs",
+    "method_candidate_counts": {
+      "prefix_only": 9,
+      "prompt_only": 9,
+      "hybrid": 9
+    },
+    "hybrid_pairs": [
+      [
+        8,
+        10
+      ],
+      [
+        16,
+        20
+      ],
+      [
+        32,
+        30
+      ]
+    ],
+    "learning_rates": [
+      0.0001,
+      0.0003,
+      0.0005
+    ],
+    "is_full_joint_hybrid_grid": false,
+    "selection_rule": "last-epoch validation Macro-F1; validation accuracy tie-break",
+    "source_component_validation": "outputs\\exp3_ablation_independent_tuning\\ablation_tuning_results.json",
+    "selected": {
+      "prefix_only": {
+        "method": "prefix_only",
+        "prefix_length": 16,
+        "prompt_length": 0,
+        "learning_rate": 0.0003,
+        "validation_macro_f1": 0.8697301786324925,
+        "validation_accuracy": 0.872
+      },
+      "prompt_only": {
+        "method": "prompt_only",
+        "prefix_length": 0,
+        "prompt_length": 20,
+        "learning_rate": 0.0005,
+        "validation_macro_f1": 0.87534280727998,
+        "validation_accuracy": 0.878
+      },
+      "hybrid": {
+        "method": "hybrid",
+        "prefix_length": 32,
+        "prompt_length": 30,
+        "learning_rate": 0.0005,
+        "validation_macro_f1": 0.8718339945071711,
+        "validation_accuracy": 0.874
+      }
+    }
+  }
+}
