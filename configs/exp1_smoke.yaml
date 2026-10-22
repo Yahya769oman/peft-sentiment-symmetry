@@ -1,0 +1,34 @@
+experiment_name: exp1_symmetry_smoke
+output_dir: outputs/exp1_symmetry_smoke
+
+# Smoke test only: verify correctness before expensive 3-seed runs.
+seeds: [42]
+datasets: [sst2]
+methods: [full, hybrid]
+
+model_name: bert-base-uncased
+max_length: 128
+
+subset:
+  train_size: 500
+  eval_size: 200
+
+hybrid:
+  prefix_length: 16
+  prompt_length: 20
+  dropout: 0.1
+
+training:
+  num_train_epochs: 1
+  per_device_train_batch_size: 8
+  per_device_eval_batch_size: 16
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  logging_steps: 20
+  fp16: true
+
+method_overrides:
+  full:
+    learning_rate: 2.0e-5
+  hybrid:
+    learning_rate: 3.0e-4

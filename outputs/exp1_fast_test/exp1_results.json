@@ -1,0 +1,17 @@
+[
+  {
+    "experiment": "exp1",
+    "dataset": "sst2",
+    "method": "hybrid",
+    "status": "success",
+    "total_params": 109514498,
+    "trainable_params": 14208002,
+    "trainable_ratio": 0.12973626560384727,
+    "eval_accuracy": 0.84,
+    "eval_f1_macro": 0.8368013055895553,
+    "eval_f1_weighted": 0.8378675370597035,
+    "eval_loss": 0.366043359041214,
+    "train_time_seconds": 2603.9213032722473,
+    "peak_gpu_memory_mb": 0.0
+  }
+]

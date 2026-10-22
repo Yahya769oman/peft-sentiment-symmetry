@@ -1,0 +1,8 @@
+{
+  "project": ".",
+  "checkpoint_count": 49,
+  "with_config": 6,
+  "with_adapter_config": 13,
+  "with_trainer_state": 49,
+  "note": "This is a metadata-only audit. No model loading, inference or training is performed. Checkpoint availability does not establish comparability to principal five-seed experiments."
+}

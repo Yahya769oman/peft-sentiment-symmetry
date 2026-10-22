@@ -1,0 +1,42 @@
+experiment_name: exp1_symmetry_official
+output_dir: outputs/exp1_symmetry_official
+
+# Three independent training seeds on the SAME fixed data subsets.
+seeds: [42, 123, 2026]
+data_seed: 2026
+
+datasets: [sst2, imdb]
+methods: [full, hybrid]
+
+model_name: bert-base-uncased
+max_length: 128
+
+# Controlled compute budget suitable for the Quadro P520.
+# The same fixed subset is used for both methods and all training seeds.
+subset:
+  train_size: 3000
+  eval_size: 500
+
+hybrid:
+  prefix_length: 16
+  prompt_length: 20
+  dropout: 0.1
+
+training:
+  num_train_epochs: 3
+  per_device_train_batch_size: 8
+  per_device_eval_batch_size: 16
+  gradient_accumulation_steps: 1
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  logging_steps: 50
+  fp16: true
+  optimizer: adamw_torch
+  lr_scheduler_type: linear
+
+# Method-specific learning rates.
+method_overrides:
+  full:
+    learning_rate: 2.0e-5
+  hybrid:
+    learning_rate: 3.0e-4

@@ -1,0 +1,38 @@
+[
+  {
+    "dataset": "sst2",
+    "subset": "train",
+    "original_split": "train",
+    "data_seed": 2026,
+    "negative_0": 1318,
+    "positive_1": 1682,
+    "total": 3000
+  },
+  {
+    "dataset": "sst2",
+    "subset": "heldout",
+    "original_split": "validation",
+    "data_seed": 2026,
+    "negative_0": 246,
+    "positive_1": 254,
+    "total": 500
+  },
+  {
+    "dataset": "imdb",
+    "subset": "train",
+    "original_split": "train",
+    "data_seed": 2026,
+    "negative_0": 1477,
+    "positive_1": 1523,
+    "total": 3000
+  },
+  {
+    "dataset": "imdb",
+    "subset": "heldout",
+    "original_split": "test",
+    "data_seed": 2026,
+    "negative_0": 251,
+    "positive_1": 249,
+    "total": 500
+  }
+]

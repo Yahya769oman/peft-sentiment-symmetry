@@ -1,0 +1,24 @@
+{
+  "dataset": "imdb",
+  "training_seed": 42,
+  "data_seed": 2026,
+  "n_examples": 500,
+  "max_length": 128,
+  "full_ft_accuracy": 0.86,
+  "hybrid_accuracy": 0.802,
+  "accuracy_difference_full_minus_hybrid": 0.05799999999999994,
+  "paired_bootstrap_95pct_CI_full_minus_hybrid": [
+    0.028,
+    0.088
+  ],
+  "bootstrap_resamples": 10000,
+  "bootstrap_rng_seed": 20261021,
+  "mcnemar_exact_two_sided_p": 0.00033670934946623826,
+  "full_correct_hybrid_wrong": 46,
+  "full_wrong_hybrid_correct": 17,
+  "discordant_total": 63,
+  "missing_keys_full_ft": 0,
+  "missing_keys_hybrid_expected_frozen_base": 199,
+  "checkpoint_accuracy_matches_training_record": true,
+  "scope": "single-seed 42, 500-example held-out subset; not five-seed inference"
+}

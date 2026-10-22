@@ -1,0 +1,12 @@
+SAVED EVIDENCE AUDIT — NO TRAINING PERFORMED
+Project: .
+Files indexed: 689
+Epoch-level records found: 2143
+Prediction array candidates: 0
+Potential log files: 0
+
+Most relevant prediction candidates:
+
+Most relevant log candidates:
+
+WARNING: A file listing alone cannot establish the validity of McNemar/bootstrap.

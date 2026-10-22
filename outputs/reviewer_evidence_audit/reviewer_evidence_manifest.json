@@ -1,0 +1,3458 @@
+{
+  "project_root": ".",
+  "files_indexed": 689,
+  "epoch_metric_records_detected": 2143,
+  "prediction_array_candidates_detected": 0,
+  "potential_log_files_detected": 0,
+  "note": "Presence of a candidate does not prove paired example identifiers, independent held-out predictions, or valid convergence curves. No training or GPU execution occurred.",
+  "inventory": [
+    {
+      "path": "context_gated_hybrid_imdb_3seed_validation/context_gated_hybrid_imdb_3seed_results.json",
+      "bytes": 5203,
+      "type": ".json"
+    },
+    {
+      "path": "context_gated_hybrid_imdb_3seed_validation/context_gated_hybrid_imdb_3seed_summary.json",
+      "bytes": 1069,
+      "type": ".json"
+    },
+    {
+      "path": "context_gated_hybrid_imdb_3seed_validation/worker_seed123.json",
+      "bytes": 1609,
+      "type": ".json"
+    },
+    {
+      "path": "context_gated_hybrid_imdb_3seed_validation/worker_seed2026.json",
+      "bytes": 1621,
+      "type": ".json"
+    },
+    {
+      "path": "context_gated_hybrid_imdb_3seed_validation/worker_seed42.json",
+      "bytes": 1625,
+      "type": ".json"
+    },
+    {
+      "path": "context_gated_hybrid_imdb_official/context_gated_hybrid_imdb_official_results.json",
+      "bytes": 3681,
+      "type": ".json"
+    },
+    {
+      "path": "context_gated_hybrid_imdb_official/context_gated_hybrid_imdb_official_summary.json",
+      "bytes": 862,
+      "type": ".json"
+    },
+    {
+      "path": "context_gated_hybrid_imdb_official/worker_seed123.json",
+      "bytes": 1147,
+      "type": ".json"
+    },
+    {
+      "path": "context_gated_hybrid_imdb_official/worker_seed2026.json",
+      "bytes": 1148,
+      "type": ".json"
+    },
+    {
+      "path": "context_gated_hybrid_imdb_official/worker_seed42.json",
+      "bytes": 1146,
+      "type": ".json"
+    },
+    {
+      "path": "context_gated_hybrid_imdb_pilot/context_gated_hybrid_imdb_pilot.json",
+      "bytes": 2695,
+      "type": ".json"
+    },
+    {
+      "path": "data_subset_robustness/data_subset_robustness_results.csv",
+      "bytes": 9990,
+      "type": ".csv"
+    },
+    {
+      "path": "data_subset_robustness/data_subset_robustness_results.json",
+      "bytes": 33327,
+      "type": ".json"
+    },
+    {
+      "path": "data_subset_robustness/data_subset_robustness_summary.csv",
+      "bytes": 2331,
+      "type": ".csv"
+    },
+    {
+      "path": "data_subset_robustness/data_subset_robustness_summary.json",
+      "bytes": 6143,
+      "type": ".json"
+    },
+    {
+      "path": "data_subset_robustness/worker_imdb_full_ft_subsetseed2026.json",
+      "bytes": 1291,
+      "type": ".json"
+    },
+    {
+      "path": "data_subset_robustness/worker_imdb_full_ft_subsetseed3407.json",
+      "bytes": 1292,
+      "type": ".json"
+    },
+    {
+      "path": "data_subset_robustness/worker_imdb_full_ft_subsetseed7777.json",
+      "bytes": 1295,
+      "type": ".json"
+    },
+    {
+      "path": "data_subset_robustness/worker_imdb_hybrid_subsetseed2026.json",
+      "bytes": 1303,
+      "type": ".json"
+    },
+    {
+      "path": "data_subset_robustness/worker_imdb_hybrid_subsetseed3407.json",
+      "bytes": 1305,
+      "type": ".json"
+    },
+    {
+      "path": "data_subset_robustness/worker_imdb_hybrid_subsetseed7777.json",
+      "bytes": 1306,
+      "type": ".json"
+    },
+    {
+      "path": "data_subset_robustness/worker_imdb_ia3_subsetseed2026.json",
+      "bytes": 1303,
+      "type": ".json"
+    },
+    {
+      "path": "data_subset_robustness/worker_imdb_ia3_subsetseed3407.json",
+      "bytes": 1302,
+      "type": ".json"
+    },
+    {
+      "path": "data_subset_robustness/worker_imdb_ia3_subsetseed7777.json",
+      "bytes": 1304,
+      "type": ".json"
+    },
+    {
+      "path": "data_subset_robustness/worker_imdb_lora_subsetseed2026.json",
+      "bytes": 1297,
+      "type": ".json"
+    },
+    {
+      "path": "data_subset_robustness/worker_imdb_lora_subsetseed3407.json",
+      "bytes": 1297,
+      "type": ".json"
+    },
+    {
+      "path": "data_subset_robustness/worker_imdb_lora_subsetseed7777.json",
+      "bytes": 1299,
+      "type": ".json"
+    },
+    {
+      "path": "data_subset_robustness/worker_sst2_full_ft_subsetseed2026.json",
+      "bytes": 1293,
+      "type": ".json"
+    },
+    {
+      "path": "data_subset_robustness/worker_sst2_full_ft_subsetseed3407.json",
+      "bytes": 1293,
+      "type": ".json"
+    },
+    {
+      "path": "data_subset_robustness/worker_sst2_full_ft_subsetseed7777.json",
+      "bytes": 1294,
+      "type": ".json"
+    },
+    {
+      "path": "data_subset_robustness/worker_sst2_hybrid_subsetseed2026.json",
+      "bytes": 1305,
+      "type": ".json"
+    },
+    {
+      "path": "data_subset_robustness/worker_sst2_hybrid_subsetseed3407.json",
+      "bytes": 1306,
+      "type": ".json"
+    },
+    {
+      "path": "data_subset_robustness/worker_sst2_hybrid_subsetseed7777.json",
+      "bytes": 1303,
+      "type": ".json"
+    },
+    {
+      "path": "data_subset_robustness/worker_sst2_ia3_subsetseed2026.json",
+      "bytes": 1302,
+      "type": ".json"
+    },
+    {
+      "path": "data_subset_robustness/worker_sst2_ia3_subsetseed3407.json",
+      "bytes": 1304,
+      "type": ".json"
+    },
+    {
+      "path": "data_subset_robustness/worker_sst2_ia3_subsetseed7777.json",
+      "bytes": 1302,
+      "type": ".json"
+    },
+    {
+      "path": "data_subset_robustness/worker_sst2_lora_subsetseed2026.json",
+      "bytes": 1297,
+      "type": ".json"
+    },
+    {
+      "path": "data_subset_robustness/worker_sst2_lora_subsetseed3407.json",
+      "bytes": 1297,
+      "type": ".json"
+    },
+    {
+      "path": "data_subset_robustness/worker_sst2_lora_subsetseed7777.json",
+      "bytes": 1298,
+      "type": ".json"
+    },
+    {
+      "path": "exp1/exp1_results.json",
+      "bytes": 1793,
+      "type": ".json"
+    },
+    {
+      "path": "exp1/exp2_results.json",
+      "bytes": 916,
+      "type": ".json"
+    },
+    {
+      "path": "exp1/imdb_full/checkpoint-250/config.json",
+      "bytes": 707,
+      "type": ".json"
+    },
+    {
+      "path": "exp1/imdb_full/checkpoint-250/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp1/imdb_full/checkpoint-250/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp1/imdb_full/checkpoint-250/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp1/imdb_full/checkpoint-250/trainer_state.json",
+      "bytes": 3550,
+      "type": ".json"
+    },
+    {
+      "path": "exp1/imdb_full/checkpoint-250/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp1/imdb_hybrid/checkpoint-250/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp1/imdb_hybrid/checkpoint-250/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp1/imdb_hybrid/checkpoint-250/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp1/imdb_hybrid/checkpoint-250/trainer_state.json",
+      "bytes": 3538,
+      "type": ".json"
+    },
+    {
+      "path": "exp1/imdb_hybrid/checkpoint-250/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp1/imdb_prefix/checkpoint-500/adapter_config.json",
+      "bytes": 481,
+      "type": ".json"
+    },
+    {
+      "path": "exp1/imdb_prefix/checkpoint-500/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp1/imdb_prefix/checkpoint-500/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp1/imdb_prefix/checkpoint-500/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp1/imdb_prefix/checkpoint-500/trainer_state.json",
+      "bytes": 3203,
+      "type": ".json"
+    },
+    {
+      "path": "exp1/imdb_prefix/checkpoint-500/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp1/imdb_prompt/checkpoint-750/adapter_config.json",
+      "bytes": 554,
+      "type": ".json"
+    },
+    {
+      "path": "exp1/imdb_prompt/checkpoint-750/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp1/imdb_prompt/checkpoint-750/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp1/imdb_prompt/checkpoint-750/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp1/imdb_prompt/checkpoint-750/trainer_state.json",
+      "bytes": 4347,
+      "type": ".json"
+    },
+    {
+      "path": "exp1/imdb_prompt/checkpoint-750/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp1/sst2_full/checkpoint-375/config.json",
+      "bytes": 707,
+      "type": ".json"
+    },
+    {
+      "path": "exp1/sst2_full/checkpoint-375/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp1/sst2_full/checkpoint-375/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp1/sst2_full/checkpoint-375/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp1/sst2_full/checkpoint-375/trainer_state.json",
+      "bytes": 4880,
+      "type": ".json"
+    },
+    {
+      "path": "exp1/sst2_full/checkpoint-375/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp1/sst2_hybrid/checkpoint-125/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp1/sst2_hybrid/checkpoint-125/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp1/sst2_hybrid/checkpoint-125/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp1/sst2_hybrid/checkpoint-125/trainer_state.json",
+      "bytes": 2204,
+      "type": ".json"
+    },
+    {
+      "path": "exp1/sst2_hybrid/checkpoint-125/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp1_fast_test/exp1_results.json",
+      "bytes": 458,
+      "type": ".json"
+    },
+    {
+      "path": "exp1_full_vs_hybrid_fair_fast/exp1_results.json",
+      "bytes": 1818,
+      "type": ".json"
+    },
+    {
+      "path": "exp1_full_vs_hybrid_sst2_fast/exp1_results.json",
+      "bytes": 897,
+      "type": ".json"
+    },
+    {
+      "path": "exp1_hybrid_rescue_fast/exp1_results.json",
+      "bytes": 457,
+      "type": ".json"
+    },
+    {
+      "path": "exp1_symmetry_official/exp1_official_results.csv",
+      "bytes": 6647,
+      "type": ".csv"
+    },
+    {
+      "path": "exp1_symmetry_official/exp1_official_results.json",
+      "bytes": 20763,
+      "type": ".json"
+    },
+    {
+      "path": "exp1_symmetry_official/exp1_official_summary.csv",
+      "bytes": 2707,
+      "type": ".csv"
+    },
+    {
+      "path": "exp1_symmetry_official/exp1_official_summary.json",
+      "bytes": 5887,
+      "type": ".json"
+    },
+    {
+      "path": "exp1_symmetry_smoke/exp1_smoke_results.json",
+      "bytes": 2304,
+      "type": ".json"
+    },
+    {
+      "path": "exp2/exp2_ablation_comparison.csv",
+      "bytes": 426,
+      "type": ".csv"
+    },
+    {
+      "path": "exp2/exp2_ablation_comparison.json",
+      "bytes": 1008,
+      "type": ".json"
+    },
+    {
+      "path": "exp2/exp2_results.csv",
+      "bytes": 1466,
+      "type": ".csv"
+    },
+    {
+      "path": "exp2/exp2_results.json",
+      "bytes": 3400,
+      "type": ".json"
+    },
+    {
+      "path": "exp2/imdb_hybrid/checkpoint-375/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp2/imdb_hybrid/checkpoint-375/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp2/imdb_hybrid/checkpoint-375/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp2/imdb_hybrid/checkpoint-375/trainer_state.json",
+      "bytes": 4866,
+      "type": ".json"
+    },
+    {
+      "path": "exp2/imdb_hybrid/checkpoint-375/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp2/imdb_prefix/checkpoint-375/adapter_config.json",
+      "bytes": 481,
+      "type": ".json"
+    },
+    {
+      "path": "exp2/imdb_prefix/checkpoint-375/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp2/imdb_prefix/checkpoint-375/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp2/imdb_prefix/checkpoint-375/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp2/imdb_prefix/checkpoint-375/trainer_state.json",
+      "bytes": 4898,
+      "type": ".json"
+    },
+    {
+      "path": "exp2/imdb_prefix/checkpoint-375/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp2/imdb_prompt/checkpoint-250/adapter_config.json",
+      "bytes": 554,
+      "type": ".json"
+    },
+    {
+      "path": "exp2/imdb_prompt/checkpoint-250/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp2/imdb_prompt/checkpoint-250/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp2/imdb_prompt/checkpoint-250/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp2/imdb_prompt/checkpoint-250/trainer_state.json",
+      "bytes": 3563,
+      "type": ".json"
+    },
+    {
+      "path": "exp2/imdb_prompt/checkpoint-250/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp2/sst2_hybrid/checkpoint-375/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp2/sst2_hybrid/checkpoint-375/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp2/sst2_hybrid/checkpoint-375/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp2/sst2_hybrid/checkpoint-375/trainer_state.json",
+      "bytes": 4862,
+      "type": ".json"
+    },
+    {
+      "path": "exp2/sst2_hybrid/checkpoint-375/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp2/sst2_prefix/checkpoint-250/adapter_config.json",
+      "bytes": 481,
+      "type": ".json"
+    },
+    {
+      "path": "exp2/sst2_prefix/checkpoint-250/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp2/sst2_prefix/checkpoint-250/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp2/sst2_prefix/checkpoint-250/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp2/sst2_prefix/checkpoint-250/trainer_state.json",
+      "bytes": 3562,
+      "type": ".json"
+    },
+    {
+      "path": "exp2/sst2_prefix/checkpoint-250/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp2/sst2_prompt/checkpoint-375/adapter_config.json",
+      "bytes": 554,
+      "type": ".json"
+    },
+    {
+      "path": "exp2/sst2_prompt/checkpoint-375/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp2/sst2_prompt/checkpoint-375/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp2/sst2_prompt/checkpoint-375/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp2/sst2_prompt/checkpoint-375/trainer_state.json",
+      "bytes": 4900,
+      "type": ".json"
+    },
+    {
+      "path": "exp2/sst2_prompt/checkpoint-375/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp2_baseline_lr_tuning/exp2_baseline_lr_tuning_best.json",
+      "bytes": 6729,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_baseline_lr_tuning/exp2_baseline_lr_tuning_results.json",
+      "bytes": 20192,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_baseline_lr_tuning/worker_imdb_adapter_1e-04.json",
+      "bytes": 1054,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_baseline_lr_tuning/worker_imdb_adapter_3e-04.json",
+      "bytes": 1051,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_baseline_lr_tuning/worker_imdb_adapter_5e-04.json",
+      "bytes": 1053,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_baseline_lr_tuning/worker_imdb_bitfit_1e-04.json",
+      "bytes": 1054,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_baseline_lr_tuning/worker_imdb_bitfit_3e-04.json",
+      "bytes": 1053,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_baseline_lr_tuning/worker_imdb_bitfit_5e-04.json",
+      "bytes": 1050,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_baseline_lr_tuning/worker_imdb_lora_1e-04.json",
+      "bytes": 1036,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_baseline_lr_tuning/worker_imdb_lora_3e-04.json",
+      "bytes": 1037,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_baseline_lr_tuning/worker_imdb_lora_5e-04.json",
+      "bytes": 1041,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_baseline_lr_tuning/worker_sst2_adapter_1e-04.json",
+      "bytes": 1052,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_baseline_lr_tuning/worker_sst2_adapter_3e-04.json",
+      "bytes": 1051,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_baseline_lr_tuning/worker_sst2_adapter_5e-04.json",
+      "bytes": 1052,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_baseline_lr_tuning/worker_sst2_bitfit_1e-04.json",
+      "bytes": 1052,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_baseline_lr_tuning/worker_sst2_bitfit_3e-04.json",
+      "bytes": 1052,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_baseline_lr_tuning/worker_sst2_bitfit_5e-04.json",
+      "bytes": 1040,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_baseline_lr_tuning/worker_sst2_lora_1e-04.json",
+      "bytes": 1041,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_baseline_lr_tuning/worker_sst2_lora_3e-04.json",
+      "bytes": 1041,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_baseline_lr_tuning/worker_sst2_lora_5e-04.json",
+      "bytes": 1029,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/exp2_peft_official_results.csv",
+      "bytes": 21584,
+      "type": ".csv"
+    },
+    {
+      "path": "exp2_peft_official/exp2_peft_official_results.json",
+      "bytes": 74584,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/exp2_peft_official_summary.csv",
+      "bytes": 4760,
+      "type": ".csv"
+    },
+    {
+      "path": "exp2_peft_official/exp2_peft_official_summary.json",
+      "bytes": 12114,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_imdb_adapter_seed123.json",
+      "bytes": 1752,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_imdb_adapter_seed2026.json",
+      "bytes": 1752,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_imdb_adapter_seed3407.json",
+      "bytes": 1752,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_imdb_adapter_seed42.json",
+      "bytes": 1750,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_imdb_adapter_seed7777.json",
+      "bytes": 1754,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_imdb_bitfit_seed123.json",
+      "bytes": 1754,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_imdb_bitfit_seed2026.json",
+      "bytes": 1758,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_imdb_bitfit_seed3407.json",
+      "bytes": 1757,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_imdb_bitfit_seed42.json",
+      "bytes": 1753,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_imdb_bitfit_seed7777.json",
+      "bytes": 1755,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_imdb_hybrid_seed123.json",
+      "bytes": 1749,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_imdb_hybrid_seed2026.json",
+      "bytes": 1750,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_imdb_hybrid_seed3407.json",
+      "bytes": 1753,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_imdb_hybrid_seed42.json",
+      "bytes": 1744,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_imdb_hybrid_seed7777.json",
+      "bytes": 1750,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_imdb_lora_seed123.json",
+      "bytes": 1736,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_imdb_lora_seed2026.json",
+      "bytes": 1742,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_imdb_lora_seed3407.json",
+      "bytes": 1738,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_imdb_lora_seed42.json",
+      "bytes": 1737,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_imdb_lora_seed7777.json",
+      "bytes": 1738,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_sst2_adapter_seed123.json",
+      "bytes": 1750,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_sst2_adapter_seed2026.json",
+      "bytes": 1754,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_sst2_adapter_seed3407.json",
+      "bytes": 1751,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_sst2_adapter_seed42.json",
+      "bytes": 1737,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_sst2_adapter_seed7777.json",
+      "bytes": 1754,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_sst2_bitfit_seed123.json",
+      "bytes": 1753,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_sst2_bitfit_seed2026.json",
+      "bytes": 1755,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_sst2_bitfit_seed3407.json",
+      "bytes": 1757,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_sst2_bitfit_seed42.json",
+      "bytes": 1751,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_sst2_bitfit_seed7777.json",
+      "bytes": 1757,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_sst2_hybrid_seed123.json",
+      "bytes": 1735,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_sst2_hybrid_seed2026.json",
+      "bytes": 1750,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_sst2_hybrid_seed3407.json",
+      "bytes": 1750,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_sst2_hybrid_seed42.json",
+      "bytes": 1747,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_sst2_hybrid_seed7777.json",
+      "bytes": 1752,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_sst2_lora_seed123.json",
+      "bytes": 1737,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_sst2_lora_seed2026.json",
+      "bytes": 1724,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_sst2_lora_seed3407.json",
+      "bytes": 1738,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_sst2_lora_seed42.json",
+      "bytes": 1735,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_official/worker_sst2_lora_seed7777.json",
+      "bytes": 1740,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_smoke/exp2_peft_smoke_results.csv",
+      "bytes": 4291,
+      "type": ".csv"
+    },
+    {
+      "path": "exp2_peft_smoke/exp2_peft_smoke_results.json",
+      "bytes": 12904,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_smoke/worker_imdb_adapter.json",
+      "bytes": 1531,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_smoke/worker_imdb_bitfit.json",
+      "bytes": 1517,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_smoke/worker_imdb_hybrid.json",
+      "bytes": 1536,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_smoke/worker_imdb_lora.json",
+      "bytes": 1539,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_smoke/worker_sst2_adapter.json",
+      "bytes": 1544,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_smoke/worker_sst2_bitfit.json",
+      "bytes": 1474,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_smoke/worker_sst2_hybrid.json",
+      "bytes": 1472,
+      "type": ".json"
+    },
+    {
+      "path": "exp2_peft_smoke/worker_sst2_lora.json",
+      "bytes": 1464,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/exp3_results.json",
+      "bytes": 1896,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/hybrid/hybrid_analysis_summary.json",
+      "bytes": 1801,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/hybrid/checkpoint-625/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/hybrid/checkpoint-625/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/hybrid/checkpoint-625/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/hybrid/checkpoint-625/trainer_state.json",
+      "bytes": 7690,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/hybrid/checkpoint-625/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp3/prefix/prefix_analysis_summary.json",
+      "bytes": 1796,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/prefix/checkpoint-625/adapter_config.json",
+      "bytes": 481,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/prefix/checkpoint-625/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/prefix/checkpoint-625/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/prefix/checkpoint-625/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/prefix/checkpoint-625/trainer_state.json",
+      "bytes": 7746,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/prefix/checkpoint-625/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp3/prompt/prompt_analysis_summary.json",
+      "bytes": 1794,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/prompt/checkpoint-625/adapter_config.json",
+      "bytes": 554,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/prompt/checkpoint-625/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/prompt/checkpoint-625/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/prompt/checkpoint-625/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/prompt/checkpoint-625/trainer_state.json",
+      "bytes": 7744,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/prompt/checkpoint-625/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp3/sst2_hybrid_1000/checkpoint-250/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/sst2_hybrid_1000/checkpoint-250/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/sst2_hybrid_1000/checkpoint-250/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/sst2_hybrid_1000/checkpoint-250/trainer_state.json",
+      "bytes": 3508,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/sst2_hybrid_1000/checkpoint-250/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp3/sst2_hybrid_2000/checkpoint-750/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/sst2_hybrid_2000/checkpoint-750/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/sst2_hybrid_2000/checkpoint-750/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/sst2_hybrid_2000/checkpoint-750/trainer_state.json",
+      "bytes": 7991,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/sst2_hybrid_2000/checkpoint-750/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp3/sst2_hybrid_250/checkpoint-96/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/sst2_hybrid_250/checkpoint-96/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/sst2_hybrid_250/checkpoint-96/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/sst2_hybrid_250/checkpoint-96/trainer_state.json",
+      "bytes": 2518,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/sst2_hybrid_250/checkpoint-96/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp3/sst2_hybrid_500/checkpoint-126/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/sst2_hybrid_500/checkpoint-126/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/sst2_hybrid_500/checkpoint-126/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/sst2_hybrid_500/checkpoint-126/trainer_state.json",
+      "bytes": 2597,
+      "type": ".json"
+    },
+    {
+      "path": "exp3/sst2_hybrid_500/checkpoint-126/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/ablation_tuned_official_results.csv",
+      "bytes": 12296,
+      "type": ".csv"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/ablation_tuned_official_results.json",
+      "bytes": 36893,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/ablation_tuned_official_summary.csv",
+      "bytes": 2945,
+      "type": ".csv"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/ablation_tuned_official_summary.json",
+      "bytes": 6502,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/ablation_tuning_best.json",
+      "bytes": 7422,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/ablation_tuning_results.csv",
+      "bytes": 20295,
+      "type": ".csv"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/ablation_tuning_results.json",
+      "bytes": 64119,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_official_imdb_prefix_only_seed123.json",
+      "bytes": 1736,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_official_imdb_prefix_only_seed2026.json",
+      "bytes": 1709,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_official_imdb_prefix_only_seed3407.json",
+      "bytes": 1736,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_official_imdb_prefix_only_seed42.json",
+      "bytes": 1736,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_official_imdb_prefix_only_seed7777.json",
+      "bytes": 1738,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_official_imdb_prompt_only_seed123.json",
+      "bytes": 1738,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_official_imdb_prompt_only_seed2026.json",
+      "bytes": 1742,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_official_imdb_prompt_only_seed3407.json",
+      "bytes": 1690,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_official_imdb_prompt_only_seed42.json",
+      "bytes": 1739,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_official_imdb_prompt_only_seed7777.json",
+      "bytes": 1740,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_official_sst2_prefix_only_seed123.json",
+      "bytes": 1739,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_official_sst2_prefix_only_seed2026.json",
+      "bytes": 1737,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_official_sst2_prefix_only_seed3407.json",
+      "bytes": 1738,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_official_sst2_prefix_only_seed42.json",
+      "bytes": 1737,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_official_sst2_prefix_only_seed7777.json",
+      "bytes": 1737,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_official_sst2_prompt_only_seed123.json",
+      "bytes": 1737,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_official_sst2_prompt_only_seed2026.json",
+      "bytes": 1741,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_official_sst2_prompt_only_seed3407.json",
+      "bytes": 1726,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_official_sst2_prompt_only_seed42.json",
+      "bytes": 1736,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_official_sst2_prompt_only_seed7777.json",
+      "bytes": 1738,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_imdb_prefix_only_lr1e-04_len16.json",
+      "bytes": 1675,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_imdb_prefix_only_lr1e-04_len32.json",
+      "bytes": 1673,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_imdb_prefix_only_lr1e-04_len8.json",
+      "bytes": 1671,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_imdb_prefix_only_lr3e-04_len16.json",
+      "bytes": 1676,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_imdb_prefix_only_lr3e-04_len32.json",
+      "bytes": 1674,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_imdb_prefix_only_lr3e-04_len8.json",
+      "bytes": 1672,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_imdb_prefix_only_lr5e-04_len16.json",
+      "bytes": 1676,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_imdb_prefix_only_lr5e-04_len32.json",
+      "bytes": 1673,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_imdb_prefix_only_lr5e-04_len8.json",
+      "bytes": 1673,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_imdb_prompt_only_lr1e-04_len10.json",
+      "bytes": 1674,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_imdb_prompt_only_lr1e-04_len20.json",
+      "bytes": 1674,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_imdb_prompt_only_lr1e-04_len30.json",
+      "bytes": 1675,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_imdb_prompt_only_lr3e-04_len10.json",
+      "bytes": 1673,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_imdb_prompt_only_lr3e-04_len20.json",
+      "bytes": 1659,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_imdb_prompt_only_lr3e-04_len30.json",
+      "bytes": 1667,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_imdb_prompt_only_lr5e-04_len10.json",
+      "bytes": 1658,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_imdb_prompt_only_lr5e-04_len20.json",
+      "bytes": 1663,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_imdb_prompt_only_lr5e-04_len30.json",
+      "bytes": 1677,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_sst2_prefix_only_lr1e-04_len16.json",
+      "bytes": 1675,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_sst2_prefix_only_lr1e-04_len32.json",
+      "bytes": 1662,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_sst2_prefix_only_lr1e-04_len8.json",
+      "bytes": 1675,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_sst2_prefix_only_lr3e-04_len16.json",
+      "bytes": 1676,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_sst2_prefix_only_lr3e-04_len32.json",
+      "bytes": 1662,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_sst2_prefix_only_lr3e-04_len8.json",
+      "bytes": 1674,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_sst2_prefix_only_lr5e-04_len16.json",
+      "bytes": 1663,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_sst2_prefix_only_lr5e-04_len32.json",
+      "bytes": 1675,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_sst2_prefix_only_lr5e-04_len8.json",
+      "bytes": 1675,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_sst2_prompt_only_lr1e-04_len10.json",
+      "bytes": 1674,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_sst2_prompt_only_lr1e-04_len20.json",
+      "bytes": 1676,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_sst2_prompt_only_lr1e-04_len30.json",
+      "bytes": 1679,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_sst2_prompt_only_lr3e-04_len10.json",
+      "bytes": 1676,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_sst2_prompt_only_lr3e-04_len20.json",
+      "bytes": 1674,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_sst2_prompt_only_lr3e-04_len30.json",
+      "bytes": 1679,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_sst2_prompt_only_lr5e-04_len10.json",
+      "bytes": 1662,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_sst2_prompt_only_lr5e-04_len20.json",
+      "bytes": 1673,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_ablation_independent_tuning/worker_tune_sst2_prompt_only_lr5e-04_len30.json",
+      "bytes": 1679,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_controlled_ablation/exp3_controlled_ablation_results.csv",
+      "bytes": 7323,
+      "type": ".csv"
+    },
+    {
+      "path": "exp3_controlled_ablation/exp3_controlled_ablation_results.json",
+      "bytes": 21862,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_controlled_ablation/exp3_controlled_ablation_summary.csv",
+      "bytes": 2907,
+      "type": ".csv"
+    },
+    {
+      "path": "exp3_controlled_ablation/exp3_controlled_ablation_summary.json",
+      "bytes": 6335,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_controlled_ablation/worker_imdb_prefix_only_seed123.json",
+      "bytes": 1710,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_controlled_ablation/worker_imdb_prefix_only_seed2026.json",
+      "bytes": 1715,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_controlled_ablation/worker_imdb_prefix_only_seed42.json",
+      "bytes": 1711,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_controlled_ablation/worker_imdb_prompt_only_seed123.json",
+      "bytes": 1699,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_controlled_ablation/worker_imdb_prompt_only_seed2026.json",
+      "bytes": 1699,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_controlled_ablation/worker_imdb_prompt_only_seed42.json",
+      "bytes": 1711,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_controlled_ablation/worker_sst2_prefix_only_seed123.json",
+      "bytes": 1715,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_controlled_ablation/worker_sst2_prefix_only_seed2026.json",
+      "bytes": 1713,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_controlled_ablation/worker_sst2_prefix_only_seed42.json",
+      "bytes": 1712,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_controlled_ablation/worker_sst2_prompt_only_seed123.json",
+      "bytes": 1714,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_controlled_ablation/worker_sst2_prompt_only_seed2026.json",
+      "bytes": 1716,
+      "type": ".json"
+    },
+    {
+      "path": "exp3_controlled_ablation/worker_sst2_prompt_only_seed42.json",
+      "bytes": 1712,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/exp4_results.csv",
+      "bytes": 3316,
+      "type": ".csv"
+    },
+    {
+      "path": "exp4/exp4_results.json",
+      "bytes": 9919,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/learning_rate_0_0001/checkpoint-63/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/learning_rate_0_0001/checkpoint-63/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/learning_rate_0_0001/checkpoint-63/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/learning_rate_0_0001/checkpoint-63/trainer_state.json",
+      "bytes": 1744,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/learning_rate_0_0001/checkpoint-63/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp4/learning_rate_0_0003/checkpoint-63/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/learning_rate_0_0003/checkpoint-63/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/learning_rate_0_0003/checkpoint-63/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/learning_rate_0_0003/checkpoint-63/trainer_state.json",
+      "bytes": 1748,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/learning_rate_0_0003/checkpoint-63/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp4/learning_rate_0_0005/checkpoint-63/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/learning_rate_0_0005/checkpoint-63/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/learning_rate_0_0005/checkpoint-63/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/learning_rate_0_0005/checkpoint-63/trainer_state.json",
+      "bytes": 1746,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/learning_rate_0_0005/checkpoint-63/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp4/prefix_virtual_tokens_10/checkpoint-63/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/prefix_virtual_tokens_10/checkpoint-63/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/prefix_virtual_tokens_10/checkpoint-63/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/prefix_virtual_tokens_10/checkpoint-63/trainer_state.json",
+      "bytes": 1752,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/prefix_virtual_tokens_10/checkpoint-63/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp4/prefix_virtual_tokens_20/checkpoint-63/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/prefix_virtual_tokens_20/checkpoint-63/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/prefix_virtual_tokens_20/checkpoint-63/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/prefix_virtual_tokens_20/checkpoint-63/trainer_state.json",
+      "bytes": 1752,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/prefix_virtual_tokens_20/checkpoint-63/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp4/prefix_virtual_tokens_5/checkpoint-63/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/prefix_virtual_tokens_5/checkpoint-63/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/prefix_virtual_tokens_5/checkpoint-63/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/prefix_virtual_tokens_5/checkpoint-63/trainer_state.json",
+      "bytes": 1749,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/prefix_virtual_tokens_5/checkpoint-63/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp4/prompt_virtual_tokens_10/checkpoint-63/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/prompt_virtual_tokens_10/checkpoint-63/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/prompt_virtual_tokens_10/checkpoint-63/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/prompt_virtual_tokens_10/checkpoint-63/trainer_state.json",
+      "bytes": 1750,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/prompt_virtual_tokens_10/checkpoint-63/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp4/prompt_virtual_tokens_20/checkpoint-63/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/prompt_virtual_tokens_20/checkpoint-63/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/prompt_virtual_tokens_20/checkpoint-63/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/prompt_virtual_tokens_20/checkpoint-63/trainer_state.json",
+      "bytes": 1751,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/prompt_virtual_tokens_20/checkpoint-63/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp4/prompt_virtual_tokens_5/checkpoint-63/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/prompt_virtual_tokens_5/checkpoint-63/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/prompt_virtual_tokens_5/checkpoint-63/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/prompt_virtual_tokens_5/checkpoint-63/trainer_state.json",
+      "bytes": 1749,
+      "type": ".json"
+    },
+    {
+      "path": "exp4/prompt_virtual_tokens_5/checkpoint-63/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp5/exp5_results.csv",
+      "bytes": 1372,
+      "type": ".csv"
+    },
+    {
+      "path": "exp5/exp5_results.json",
+      "bytes": 3911,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/bitfit/checkpoint-63/config.json",
+      "bytes": 707,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/bitfit/checkpoint-63/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/bitfit/checkpoint-63/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/bitfit/checkpoint-63/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/bitfit/checkpoint-63/trainer_state.json",
+      "bytes": 1744,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/bitfit/checkpoint-63/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp5/full/checkpoint-63/config.json",
+      "bytes": 707,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/full/checkpoint-63/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/full/checkpoint-63/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/full/checkpoint-63/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/full/checkpoint-63/trainer_state.json",
+      "bytes": 1741,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/full/checkpoint-63/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp5/hybrid/checkpoint-63/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/hybrid/checkpoint-63/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/hybrid/checkpoint-63/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/hybrid/checkpoint-63/trainer_state.json",
+      "bytes": 1701,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/hybrid/checkpoint-63/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp5/imdb/adapter/checkpoint-63/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/imdb/adapter/checkpoint-63/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/imdb/adapter/checkpoint-63/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/imdb/adapter/checkpoint-63/trainer_state.json",
+      "bytes": 1739,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/imdb/adapter/checkpoint-63/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp5/imdb/bitfit/checkpoint-63/config.json",
+      "bytes": 707,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/imdb/bitfit/checkpoint-63/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/imdb/bitfit/checkpoint-63/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/imdb/bitfit/checkpoint-63/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/imdb/bitfit/checkpoint-63/trainer_state.json",
+      "bytes": 1747,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/imdb/bitfit/checkpoint-63/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp5/imdb/hybrid/checkpoint-63/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/imdb/hybrid/checkpoint-63/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/imdb/hybrid/checkpoint-63/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/imdb/hybrid/checkpoint-63/trainer_state.json",
+      "bytes": 1739,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/imdb/hybrid/checkpoint-63/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp5/imdb/lora/checkpoint-63/adapter_config.json",
+      "bytes": 916,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/imdb/lora/checkpoint-63/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/imdb/lora/checkpoint-63/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/imdb/lora/checkpoint-63/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/imdb/lora/checkpoint-63/trainer_state.json",
+      "bytes": 1746,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/imdb/lora/checkpoint-63/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp5/lora/checkpoint-63/adapter_config.json",
+      "bytes": 916,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/lora/checkpoint-63/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/lora/checkpoint-63/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/lora/checkpoint-63/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/lora/checkpoint-63/trainer_state.json",
+      "bytes": 1742,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/lora/checkpoint-63/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp5/prefix/checkpoint-63/adapter_config.json",
+      "bytes": 481,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/prefix/checkpoint-63/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/prefix/checkpoint-63/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/prefix/checkpoint-63/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/prefix/checkpoint-63/trainer_state.json",
+      "bytes": 1741,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/prefix/checkpoint-63/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp5/prompt/checkpoint-63/adapter_config.json",
+      "bytes": 553,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/prompt/checkpoint-63/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/prompt/checkpoint-63/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/prompt/checkpoint-63/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/prompt/checkpoint-63/trainer_state.json",
+      "bytes": 1747,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/prompt/checkpoint-63/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp5/sst2/adapter/checkpoint-63/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/sst2/adapter/checkpoint-63/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/sst2/adapter/checkpoint-63/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/sst2/adapter/checkpoint-63/trainer_state.json",
+      "bytes": 1740,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/sst2/adapter/checkpoint-63/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp5/sst2/bitfit/checkpoint-63/config.json",
+      "bytes": 707,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/sst2/bitfit/checkpoint-63/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/sst2/bitfit/checkpoint-63/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/sst2/bitfit/checkpoint-63/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/sst2/bitfit/checkpoint-63/trainer_state.json",
+      "bytes": 1750,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/sst2/bitfit/checkpoint-63/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp5/sst2/hybrid/checkpoint-63/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/sst2/hybrid/checkpoint-63/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/sst2/hybrid/checkpoint-63/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/sst2/hybrid/checkpoint-63/trainer_state.json",
+      "bytes": 1737,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/sst2/hybrid/checkpoint-63/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp5/sst2/lora/checkpoint-63/adapter_config.json",
+      "bytes": 916,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/sst2/lora/checkpoint-63/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/sst2/lora/checkpoint-63/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/sst2/lora/checkpoint-63/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/sst2/lora/checkpoint-63/trainer_state.json",
+      "bytes": 1749,
+      "type": ".json"
+    },
+    {
+      "path": "exp5/sst2/lora/checkpoint-63/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp6/exp6_results.csv",
+      "bytes": 852,
+      "type": ".csv"
+    },
+    {
+      "path": "exp6/exp6_results.json",
+      "bytes": 1669,
+      "type": ".json"
+    },
+    {
+      "path": "exp6/imdb_to_amazon_polarity/hybrid/checkpoint-63/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp6/imdb_to_amazon_polarity/hybrid/checkpoint-63/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp6/imdb_to_amazon_polarity/hybrid/checkpoint-63/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp6/imdb_to_amazon_polarity/hybrid/checkpoint-63/trainer_state.json",
+      "bytes": 1758,
+      "type": ".json"
+    },
+    {
+      "path": "exp6/imdb_to_amazon_polarity/hybrid/checkpoint-63/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp6/imdb_to_yelp_polarity/hybrid/checkpoint-63/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp6/imdb_to_yelp_polarity/hybrid/checkpoint-63/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp6/imdb_to_yelp_polarity/hybrid/checkpoint-63/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp6/imdb_to_yelp_polarity/hybrid/checkpoint-63/trainer_state.json",
+      "bytes": 1757,
+      "type": ".json"
+    },
+    {
+      "path": "exp6/imdb_to_yelp_polarity/hybrid/checkpoint-63/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp7/exp7_results.csv",
+      "bytes": 1162,
+      "type": ".csv"
+    },
+    {
+      "path": "exp7/exp7_results.json",
+      "bytes": 3358,
+      "type": ".json"
+    },
+    {
+      "path": "exp7/imdb/hybrid_12500/checkpoint-4689/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp7/imdb/hybrid_12500/checkpoint-4689/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp7/imdb/hybrid_12500/checkpoint-4689/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp7/imdb/hybrid_12500/checkpoint-4689/trainer_state.json",
+      "bytes": 44063,
+      "type": ".json"
+    },
+    {
+      "path": "exp7/imdb/hybrid_12500/checkpoint-4689/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp7/imdb/hybrid_2500/checkpoint-939/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp7/imdb/hybrid_2500/checkpoint-939/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp7/imdb/hybrid_2500/checkpoint-939/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp7/imdb/hybrid_2500/checkpoint-939/trainer_state.json",
+      "bytes": 10135,
+      "type": ".json"
+    },
+    {
+      "path": "exp7/imdb/hybrid_2500/checkpoint-939/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp7/imdb/hybrid_6250/checkpoint-2346/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp7/imdb/hybrid_6250/checkpoint-2346/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp7/imdb/hybrid_6250/checkpoint-2346/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp7/imdb/hybrid_6250/checkpoint-2346/trainer_state.json",
+      "bytes": 22921,
+      "type": ".json"
+    },
+    {
+      "path": "exp7/imdb/hybrid_6250/checkpoint-2346/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp7/sst2/hybrid_16837/checkpoint-4210/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp7/sst2/hybrid_16837/checkpoint-4210/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp7/sst2/hybrid_16837/checkpoint-4210/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp7/sst2/hybrid_16837/checkpoint-4210/trainer_state.json",
+      "bytes": 39458,
+      "type": ".json"
+    },
+    {
+      "path": "exp7/sst2/hybrid_16837/checkpoint-4210/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp7/sst2/hybrid_33674/checkpoint-12630/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp7/sst2/hybrid_33674/checkpoint-12630/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp7/sst2/hybrid_33674/checkpoint-12630/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp7/sst2/hybrid_33674/checkpoint-12630/trainer_state.json",
+      "bytes": 115953,
+      "type": ".json"
+    },
+    {
+      "path": "exp7/sst2/hybrid_33674/checkpoint-12630/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp7/sst2/hybrid_6734/checkpoint-2526/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp7/sst2/hybrid_6734/checkpoint-2526/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp7/sst2/hybrid_6734/checkpoint-2526/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp7/sst2/hybrid_6734/checkpoint-2526/trainer_state.json",
+      "bytes": 24552,
+      "type": ".json"
+    },
+    {
+      "path": "exp7/sst2/hybrid_6734/checkpoint-2526/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp8/exp8_results.csv",
+      "bytes": 1183,
+      "type": ".csv"
+    },
+    {
+      "path": "exp8/exp8_results.json",
+      "bytes": 3158,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/bert-base-uncased/checkpoint-63/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/bert-base-uncased/checkpoint-63/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/bert-base-uncased/checkpoint-63/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/bert-base-uncased/checkpoint-63/trainer_state.json",
+      "bytes": 1741,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/bert-base-uncased/checkpoint-63/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp8/distilbert-base-uncased/checkpoint-63/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/distilbert-base-uncased/checkpoint-63/tokenizer.json",
+      "bytes": 711661,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/distilbert-base-uncased/checkpoint-63/tokenizer_config.json",
+      "bytes": 1283,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/distilbert-base-uncased/checkpoint-63/trainer_state.json",
+      "bytes": 1747,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/distilbert-base-uncased/checkpoint-63/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp8/imdb/bert-base-uncased/checkpoint-63/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/imdb/bert-base-uncased/checkpoint-63/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/imdb/bert-base-uncased/checkpoint-63/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/imdb/bert-base-uncased/checkpoint-63/trainer_state.json",
+      "bytes": 1748,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/imdb/bert-base-uncased/checkpoint-63/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp8/imdb/distilbert-base-uncased/checkpoint-63/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/imdb/distilbert-base-uncased/checkpoint-63/tokenizer.json",
+      "bytes": 711661,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/imdb/distilbert-base-uncased/checkpoint-63/tokenizer_config.json",
+      "bytes": 1283,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/imdb/distilbert-base-uncased/checkpoint-63/trainer_state.json",
+      "bytes": 1756,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/imdb/distilbert-base-uncased/checkpoint-63/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp8/imdb/roberta-base/checkpoint-63/merges.txt",
+      "bytes": 456318,
+      "type": ".txt"
+    },
+    {
+      "path": "exp8/imdb/roberta-base/checkpoint-63/special_tokens_map.json",
+      "bytes": 295,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/imdb/roberta-base/checkpoint-63/tokenizer.json",
+      "bytes": 3558908,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/imdb/roberta-base/checkpoint-63/tokenizer_config.json",
+      "bytes": 1304,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/imdb/roberta-base/checkpoint-63/trainer_state.json",
+      "bytes": 1742,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/imdb/roberta-base/checkpoint-63/vocab.json",
+      "bytes": 798293,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/roberta-base/checkpoint-63/merges.txt",
+      "bytes": 456318,
+      "type": ".txt"
+    },
+    {
+      "path": "exp8/roberta-base/checkpoint-63/special_tokens_map.json",
+      "bytes": 295,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/roberta-base/checkpoint-63/tokenizer.json",
+      "bytes": 3558908,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/roberta-base/checkpoint-63/tokenizer_config.json",
+      "bytes": 1304,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/roberta-base/checkpoint-63/trainer_state.json",
+      "bytes": 1736,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/roberta-base/checkpoint-63/vocab.json",
+      "bytes": 798293,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/sst2/bert-base-uncased/checkpoint-63/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/sst2/bert-base-uncased/checkpoint-63/tokenizer.json",
+      "bytes": 711396,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/sst2/bert-base-uncased/checkpoint-63/tokenizer_config.json",
+      "bytes": 1277,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/sst2/bert-base-uncased/checkpoint-63/trainer_state.json",
+      "bytes": 1750,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/sst2/bert-base-uncased/checkpoint-63/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp8/sst2/distilbert-base-uncased/checkpoint-63/special_tokens_map.json",
+      "bytes": 132,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/sst2/distilbert-base-uncased/checkpoint-63/tokenizer.json",
+      "bytes": 711661,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/sst2/distilbert-base-uncased/checkpoint-63/tokenizer_config.json",
+      "bytes": 1283,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/sst2/distilbert-base-uncased/checkpoint-63/trainer_state.json",
+      "bytes": 1754,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/sst2/distilbert-base-uncased/checkpoint-63/vocab.txt",
+      "bytes": 231508,
+      "type": ".txt"
+    },
+    {
+      "path": "exp8/sst2/roberta-base/checkpoint-63/merges.txt",
+      "bytes": 456318,
+      "type": ".txt"
+    },
+    {
+      "path": "exp8/sst2/roberta-base/checkpoint-63/special_tokens_map.json",
+      "bytes": 295,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/sst2/roberta-base/checkpoint-63/tokenizer.json",
+      "bytes": 3558908,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/sst2/roberta-base/checkpoint-63/tokenizer_config.json",
+      "bytes": 1304,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/sst2/roberta-base/checkpoint-63/trainer_state.json",
+      "bytes": 1742,
+      "type": ".json"
+    },
+    {
+      "path": "exp8/sst2/roberta-base/checkpoint-63/vocab.json",
+      "bytes": 798293,
+      "type": ".json"
+    },
+    {
+      "path": "full_ft_fresh_process/full_ft_fresh_process_results.csv",
+      "bytes": 5799,
+      "type": ".csv"
+    },
+    {
+      "path": "full_ft_fresh_process/full_ft_fresh_process_results.json",
+      "bytes": 17354,
+      "type": ".json"
+    },
+    {
+      "path": "full_ft_fresh_process/full_ft_fresh_process_summary.csv",
+      "bytes": 1749,
+      "type": ".csv"
+    },
+    {
+      "path": "full_ft_fresh_process/full_ft_fresh_process_summary.json",
+      "bytes": 3107,
+      "type": ".json"
+    },
+    {
+      "path": "full_ft_fresh_process/worker_imdb_seed123.json",
+      "bytes": 1632,
+      "type": ".json"
+    },
+    {
+      "path": "full_ft_fresh_process/worker_imdb_seed2026.json",
+      "bytes": 1635,
+      "type": ".json"
+    },
+    {
+      "path": "full_ft_fresh_process/worker_imdb_seed3407.json",
+      "bytes": 1582,
+      "type": ".json"
+    },
+    {
+      "path": "full_ft_fresh_process/worker_imdb_seed42.json",
+      "bytes": 1631,
+      "type": ".json"
+    },
+    {
+      "path": "full_ft_fresh_process/worker_imdb_seed7777.json",
+      "bytes": 1636,
+      "type": ".json"
+    },
+    {
+      "path": "full_ft_fresh_process/worker_sst2_seed123.json",
+      "bytes": 1634,
+      "type": ".json"
+    },
+    {
+      "path": "full_ft_fresh_process/worker_sst2_seed2026.json",
+      "bytes": 1632,
+      "type": ".json"
+    },
+    {
+      "path": "full_ft_fresh_process/worker_sst2_seed3407.json",
+      "bytes": 1635,
+      "type": ".json"
+    },
+    {
+      "path": "full_ft_fresh_process/worker_sst2_seed42.json",
+      "bytes": 1631,
+      "type": ".json"
+    },
+    {
+      "path": "full_ft_fresh_process/worker_sst2_seed7777.json",
+      "bytes": 1633,
+      "type": ".json"
+    },
+    {
+      "path": "hybrid_length_sensitivity/hybrid_length_sensitivity_best.json",
+      "bytes": 2475,
+      "type": ".json"
+    },
+    {
+      "path": "hybrid_length_sensitivity/hybrid_length_sensitivity_results.json",
+      "bytes": 12368,
+      "type": ".json"
+    },
+    {
+      "path": "hybrid_length_sensitivity/worker_imdb_pfx16_prm10.json",
+      "bytes": 1158,
+      "type": ".json"
+    },
+    {
+      "path": "hybrid_length_sensitivity/worker_imdb_pfx16_prm20.json",
+      "bytes": 1155,
+      "type": ".json"
+    },
+    {
+      "path": "hybrid_length_sensitivity/worker_imdb_pfx16_prm30.json",
+      "bytes": 1155,
+      "type": ".json"
+    },
+    {
+      "path": "hybrid_length_sensitivity/worker_imdb_pfx32_prm30.json",
+      "bytes": 1157,
+      "type": ".json"
+    },
+    {
+      "path": "hybrid_length_sensitivity/worker_imdb_pfx8_prm30.json",
+      "bytes": 1156,
+      "type": ".json"
+    },
+    {
+      "path": "hybrid_length_sensitivity/worker_sst2_pfx16_prm10.json",
+      "bytes": 1157,
+      "type": ".json"
+    },
+    {
+      "path": "hybrid_length_sensitivity/worker_sst2_pfx16_prm20.json",
+      "bytes": 1153,
+      "type": ".json"
+    },
+    {
+      "path": "hybrid_length_sensitivity/worker_sst2_pfx16_prm30.json",
+      "bytes": 1157,
+      "type": ".json"
+    },
+    {
+      "path": "hybrid_length_sensitivity/worker_sst2_pfx32_prm20.json",
+      "bytes": 1153,
+      "type": ".json"
+    },
+    {
+      "path": "hybrid_length_sensitivity/worker_sst2_pfx8_prm20.json",
+      "bytes": 1154,
+      "type": ".json"
+    },
+    {
+      "path": "hybrid_tuned_official/hybrid_tuned_official_results.json",
+      "bytes": 10290,
+      "type": ".json"
+    },
+    {
+      "path": "hybrid_tuned_official/hybrid_tuned_official_summary.json",
+      "bytes": 1885,
+      "type": ".json"
+    },
+    {
+      "path": "hybrid_tuned_official/worker_imdb_seed123.json",
+      "bytes": 1603,
+      "type": ".json"
+    },
+    {
+      "path": "hybrid_tuned_official/worker_imdb_seed2026.json",
+      "bytes": 1613,
+      "type": ".json"
+    },
+    {
+      "path": "hybrid_tuned_official/worker_imdb_seed42.json",
+      "bytes": 1613,
+      "type": ".json"
+    },
+    {
+      "path": "hybrid_tuned_official/worker_sst2_seed123.json",
+      "bytes": 1611,
+      "type": ".json"
+    },
+    {
+      "path": "hybrid_tuned_official/worker_sst2_seed2026.json",
+      "bytes": 1604,
+      "type": ".json"
+    },
+    {
+      "path": "hybrid_tuned_official/worker_sst2_seed42.json",
+      "bytes": 1601,
+      "type": ".json"
+    },
+    {
+      "path": "ia3_lr_tuning/ia3_lr_tuning_best.json",
+      "bytes": 2225,
+      "type": ".json"
+    },
+    {
+      "path": "ia3_lr_tuning/ia3_lr_tuning_results.json",
+      "bytes": 6666,
+      "type": ".json"
+    },
+    {
+      "path": "ia3_lr_tuning/worker_imdb_ia3_1e-04.json",
+      "bytes": 1033,
+      "type": ".json"
+    },
+    {
+      "path": "ia3_lr_tuning/worker_imdb_ia3_3e-04.json",
+      "bytes": 1036,
+      "type": ".json"
+    },
+    {
+      "path": "ia3_lr_tuning/worker_imdb_ia3_5e-04.json",
+      "bytes": 1036,
+      "type": ".json"
+    },
+    {
+      "path": "ia3_lr_tuning/worker_sst2_ia3_1e-04.json",
+      "bytes": 1036,
+      "type": ".json"
+    },
+    {
+      "path": "ia3_lr_tuning/worker_sst2_ia3_3e-04.json",
+      "bytes": 1036,
+      "type": ".json"
+    },
+    {
+      "path": "ia3_lr_tuning/worker_sst2_ia3_5e-04.json",
+      "bytes": 1036,
+      "type": ".json"
+    },
+    {
+      "path": "ia3_official_5seed/ia3_official_5seed_results.csv",
+      "bytes": 6640,
+      "type": ".csv"
+    },
+    {
+      "path": "ia3_official_5seed/ia3_official_5seed_results.json",
+      "bytes": 19673,
+      "type": ".json"
+    },
+    {
+      "path": "ia3_official_5seed/ia3_official_5seed_summary.csv",
+      "bytes": 1706,
+      "type": ".csv"
+    },
+    {
+      "path": "ia3_official_5seed/ia3_official_5seed_summary.json",
+      "bytes": 3024,
+      "type": ".json"
+    },
+    {
+      "path": "ia3_official_5seed/worker_imdb_ia3_seed123.json",
+      "bytes": 1836,
+      "type": ".json"
+    },
+    {
+      "path": "ia3_official_5seed/worker_imdb_ia3_seed2026.json",
+      "bytes": 1838,
+      "type": ".json"
+    },
+    {
+      "path": "ia3_official_5seed/worker_imdb_ia3_seed3407.json",
+      "bytes": 1837,
+      "type": ".json"
+    },
+    {
+      "path": "ia3_official_5seed/worker_imdb_ia3_seed42.json",
+      "bytes": 1835,
+      "type": ".json"
+    },
+    {
+      "path": "ia3_official_5seed/worker_imdb_ia3_seed7777.json",
+      "bytes": 1839,
+      "type": ".json"
+    },
+    {
+      "path": "ia3_official_5seed/worker_sst2_ia3_seed123.json",
+      "bytes": 1837,
+      "type": ".json"
+    },
+    {
+      "path": "ia3_official_5seed/worker_sst2_ia3_seed2026.json",
+      "bytes": 1839,
+      "type": ".json"
+    },
+    {
+      "path": "ia3_official_5seed/worker_sst2_ia3_seed3407.json",
+      "bytes": 1840,
+      "type": ".json"
+    },
+    {
+      "path": "ia3_official_5seed/worker_sst2_ia3_seed42.json",
+      "bytes": 1821,
+      "type": ".json"
+    },
+    {
+      "path": "ia3_official_5seed/worker_sst2_ia3_seed7777.json",
+      "bytes": 1838,
+      "type": ".json"
+    },
+    {
+      "path": "ia3_smoke/ia3_smoke_results.csv",
+      "bytes": 1584,
+      "type": ".csv"
+    },
+    {
+      "path": "ia3_smoke/ia3_smoke_results.json",
+      "bytes": 3213,
+      "type": ".json"
+    },
+    {
+      "path": "ia3_smoke/worker_imdb_ia3.json",
+      "bytes": 1541,
+      "type": ".json"
+    },
+    {
+      "path": "ia3_smoke/worker_sst2_ia3.json",
+      "bytes": 1463,
+      "type": ".json"
+    },
+    {
+      "path": "imdb_hybrid_final_lr5e4/imdb_hybrid_final_results.json",
+      "bytes": 5134,
+      "type": ".json"
+    },
+    {
+      "path": "imdb_hybrid_final_lr5e4/imdb_hybrid_final_summary.json",
+      "bytes": 848,
+      "type": ".json"
+    },
+    {
+      "path": "imdb_hybrid_lr_tuning/imdb_hybrid_lr_tuning_results.json",
+      "bytes": 2517,
+      "type": ".json"
+    },
+    {
+      "path": "imdb_sequence_length_sensitivity/imdb_heldout_token_length_distribution.json",
+      "bytes": 5352,
+      "type": ".json"
+    },
+    {
+      "path": "imdb_sequence_length_sensitivity/imdb_sequence_length_results.csv",
+      "bytes": 12374,
+      "type": ".csv"
+    },
+    {
+      "path": "imdb_sequence_length_sensitivity/imdb_sequence_length_results.json",
+      "bytes": 40264,
+      "type": ".json"
+    },
+    {
+      "path": "imdb_sequence_length_sensitivity/imdb_sequence_length_summary.csv",
+      "bytes": 2780,
+      "type": ".csv"
+    },
+    {
+      "path": "imdb_sequence_length_sensitivity/imdb_sequence_length_summary.json",
+      "bytes": 7383,
+      "type": ".json"
+    },
+    {
+      "path": "imdb_sequence_length_sensitivity/worker_full_ft_len128_seed123.json",
+      "bytes": 2107,
+      "type": ".json"
+    },
+    {
+      "path": "imdb_sequence_length_sensitivity/worker_full_ft_len128_seed2026.json",
+      "bytes": 2100,
+      "type": ".json"
+    },
+    {
+      "path": "imdb_sequence_length_sensitivity/worker_full_ft_len128_seed42.json",
+      "bytes": 2104,
+      "type": ".json"
+    },
+    {
+      "path": "imdb_sequence_length_sensitivity/worker_full_ft_len256_seed123.json",
+      "bytes": 2098,
+      "type": ".json"
+    },
+    {
+      "path": "imdb_sequence_length_sensitivity/worker_full_ft_len256_seed2026.json",
+      "bytes": 2093,
+      "type": ".json"
+    },
+    {
+      "path": "imdb_sequence_length_sensitivity/worker_full_ft_len256_seed42.json",
+      "bytes": 2099,
+      "type": ".json"
+    },
+    {
+      "path": "imdb_sequence_length_sensitivity/worker_full_ft_len512_seed123.json",
+      "bytes": 2104,
+      "type": ".json"
+    },
+    {
+      "path": "imdb_sequence_length_sensitivity/worker_full_ft_len512_seed2026.json",
+      "bytes": 2100,
+      "type": ".json"
+    },
+    {
+      "path": "imdb_sequence_length_sensitivity/worker_full_ft_len512_seed42.json",
+      "bytes": 2099,
+      "type": ".json"
+    },
+    {
+      "path": "imdb_sequence_length_sensitivity/worker_hybrid_len128_seed123.json",
+      "bytes": 2106,
+      "type": ".json"
+    },
+    {
+      "path": "imdb_sequence_length_sensitivity/worker_hybrid_len128_seed2026.json",
+      "bytes": 2121,
+      "type": ".json"
+    },
+    {
+      "path": "imdb_sequence_length_sensitivity/worker_hybrid_len128_seed42.json",
+      "bytes": 2115,
+      "type": ".json"
+    },
+    {
+      "path": "imdb_sequence_length_sensitivity/worker_hybrid_len256_seed123.json",
+      "bytes": 2103,
+      "type": ".json"
+    },
+    {
+      "path": "imdb_sequence_length_sensitivity/worker_hybrid_len256_seed2026.json",
+      "bytes": 2117,
+      "type": ".json"
+    },
+    {
+      "path": "imdb_sequence_length_sensitivity/worker_hybrid_len256_seed42.json",
+      "bytes": 2114,
+      "type": ".json"
+    },
+    {
+      "path": "imdb_sequence_length_sensitivity/worker_hybrid_len512_seed123.json",
+      "bytes": 2119,
+      "type": ".json"
+    },
+    {
+      "path": "imdb_sequence_length_sensitivity/worker_hybrid_len512_seed2026.json",
+      "bytes": 2118,
+      "type": ".json"
+    },
+    {
+      "path": "imdb_sequence_length_sensitivity/worker_hybrid_len512_seed42.json",
+      "bytes": 2086,
+      "type": ".json"
+    },
+    {
+      "path": "inference_efficiency_benchmark/inference_efficiency_results.csv",
+      "bytes": 5808,
+      "type": ".csv"
+    },
+    {
+      "path": "inference_efficiency_benchmark/inference_efficiency_results.json",
+      "bytes": 15323,
+      "type": ".json"
+    },
+    {
+      "path": "inference_efficiency_benchmark/worker_imdb_adapter.json",
+      "bytes": 1203,
+      "type": ".json"
+    },
+    {
+      "path": "inference_efficiency_benchmark/worker_imdb_bitfit.json",
+      "bytes": 1199,
+      "type": ".json"
+    },
+    {
+      "path": "inference_efficiency_benchmark/worker_imdb_full_ft.json",
+      "bytes": 1186,
+      "type": ".json"
+    },
+    {
+      "path": "inference_efficiency_benchmark/worker_imdb_hybrid.json",
+      "bytes": 1194,
+      "type": ".json"
+    },
+    {
+      "path": "inference_efficiency_benchmark/worker_imdb_ia3.json",
+      "bytes": 1194,
+      "type": ".json"
+    },
+    {
+      "path": "inference_efficiency_benchmark/worker_imdb_lora.json",
+      "bytes": 1193,
+      "type": ".json"
+    },
+    {
+      "path": "inference_efficiency_benchmark/worker_sst2_adapter.json",
+      "bytes": 1200,
+      "type": ".json"
+    },
+    {
+      "path": "inference_efficiency_benchmark/worker_sst2_bitfit.json",
+      "bytes": 1204,
+      "type": ".json"
+    },
+    {
+      "path": "inference_efficiency_benchmark/worker_sst2_full_ft.json",
+      "bytes": 1183,
+      "type": ".json"
+    },
+    {
+      "path": "inference_efficiency_benchmark/worker_sst2_hybrid.json",
+      "bytes": 1201,
+      "type": ".json"
+    },
+    {
+      "path": "inference_efficiency_benchmark/worker_sst2_ia3.json",
+      "bytes": 1196,
+      "type": ".json"
+    },
+    {
+      "path": "inference_efficiency_benchmark/worker_sst2_lora.json",
+      "bytes": 1195,
+      "type": ".json"
+    },
+    {
+      "path": "pareto_figures/pareto_plot_data.csv",
+      "bytes": 1108,
+      "type": ".csv"
+    },
+    {
+      "path": "retention_uncertainty_analysis/retention_uncertainty_seed_details.csv",
+      "bytes": 1382,
+      "type": ".csv"
+    },
+    {
+      "path": "retention_uncertainty_analysis/retention_uncertainty_summary.json",
+      "bytes": 6786,
+      "type": ".json"
+    },
+    {
+      "path": "roberta_backbone_sensitivity/roberta_backbone_results.csv",
+      "bytes": 7234,
+      "type": ".csv"
+    },
+    {
+      "path": "roberta_backbone_sensitivity/roberta_backbone_results.json",
+      "bytes": 21695,
+      "type": ".json"
+    },
+    {
+      "path": "roberta_backbone_sensitivity/roberta_backbone_summary.csv",
+      "bytes": 1115,
+      "type": ".csv"
+    },
+    {
+      "path": "roberta_backbone_sensitivity/roberta_backbone_summary.json",
+      "bytes": 2376,
+      "type": ".json"
+    },
+    {
+      "path": "roberta_backbone_sensitivity/worker_imdb_full_ft_seed123.json",
+      "bytes": 1698,
+      "type": ".json"
+    },
+    {
+      "path": "roberta_backbone_sensitivity/worker_imdb_full_ft_seed2026.json",
+      "bytes": 1698,
+      "type": ".json"
+    },
+    {
+      "path": "roberta_backbone_sensitivity/worker_imdb_full_ft_seed42.json",
+      "bytes": 1697,
+      "type": ".json"
+    },
+    {
+      "path": "roberta_backbone_sensitivity/worker_imdb_hybrid_seed123.json",
+      "bytes": 1711,
+      "type": ".json"
+    },
+    {
+      "path": "roberta_backbone_sensitivity/worker_imdb_hybrid_seed2026.json",
+      "bytes": 1699,
+      "type": ".json"
+    },
+    {
+      "path": "roberta_backbone_sensitivity/worker_imdb_hybrid_seed42.json",
+      "bytes": 1697,
+      "type": ".json"
+    },
+    {
+      "path": "roberta_backbone_sensitivity/worker_sst2_full_ft_seed123.json",
+      "bytes": 1685,
+      "type": ".json"
+    },
+    {
+      "path": "roberta_backbone_sensitivity/worker_sst2_full_ft_seed2026.json",
+      "bytes": 1698,
+      "type": ".json"
+    },
+    {
+      "path": "roberta_backbone_sensitivity/worker_sst2_full_ft_seed42.json",
+      "bytes": 1696,
+      "type": ".json"
+    },
+    {
+      "path": "roberta_backbone_sensitivity/worker_sst2_hybrid_seed123.json",
+      "bytes": 1710,
+      "type": ".json"
+    },
+    {
+      "path": "roberta_backbone_sensitivity/worker_sst2_hybrid_seed2026.json",
+      "bytes": 1711,
+      "type": ".json"
+    },
+    {
+      "path": "roberta_backbone_sensitivity/worker_sst2_hybrid_seed42.json",
+      "bytes": 1708,
+      "type": ".json"
+    },
+    {
+      "path": "roberta_lr_review/imdb_review_results.json",
+      "bytes": 934,
+      "type": ".json"
+    },
+    {
+      "path": "roberta_lr_review/sst2_review_results.json",
+      "bytes": 933,
+      "type": ".json"
+    },
+    {
+      "path": "statistical_significance/paired_significance_results.csv",
+      "bytes": 5649,
+      "type": ".csv"
+    },
+    {
+      "path": "statistical_significance/paired_significance_results.json",
+      "bytes": 15139,
+      "type": ".json"
+    },
+    {
+      "path": "trained_checkpoint_inference_benchmark/benchmark_imdb_adapter_seed42.json",
+      "bytes": 1404,
+      "type": ".json"
+    },
+    {
+      "path": "trained_checkpoint_inference_benchmark/benchmark_imdb_bitfit_seed42.json",
+      "bytes": 1403,
+      "type": ".json"
+    },
+    {
+      "path": "trained_checkpoint_inference_benchmark/benchmark_imdb_full_ft_seed42.json",
+      "bytes": 1382,
+      "type": ".json"
+    },
+    {
+      "path": "trained_checkpoint_inference_benchmark/benchmark_imdb_hybrid_seed42.json",
+      "bytes": 1403,
+      "type": ".json"
+    },
+    {
+      "path": "trained_checkpoint_inference_benchmark/benchmark_imdb_ia3_seed42.json",
+      "bytes": 1403,
+      "type": ".json"
+    },
+    {
+      "path": "trained_checkpoint_inference_benchmark/benchmark_imdb_lora_seed42.json",
+      "bytes": 1395,
+      "type": ".json"
+    },
+    {
+      "path": "trained_checkpoint_inference_benchmark/benchmark_sst2_adapter_seed42.json",
+      "bytes": 1406,
+      "type": ".json"
+    },
+    {
+      "path": "trained_checkpoint_inference_benchmark/benchmark_sst2_bitfit_seed42.json",
+      "bytes": 1407,
+      "type": ".json"
+    },
+    {
+      "path": "trained_checkpoint_inference_benchmark/benchmark_sst2_full_ft_seed42.json",
+      "bytes": 1384,
+      "type": ".json"
+    },
+    {
+      "path": "trained_checkpoint_inference_benchmark/benchmark_sst2_hybrid_seed42.json",
+      "bytes": 1407,
+      "type": ".json"
+    },
+    {
+      "path": "trained_checkpoint_inference_benchmark/benchmark_sst2_ia3_seed42.json",
+      "bytes": 1404,
+      "type": ".json"
+    },
+    {
+      "path": "trained_checkpoint_inference_benchmark/benchmark_sst2_lora_seed42.json",
+      "bytes": 1397,
+      "type": ".json"
+    },
+    {
+      "path": "trained_checkpoint_inference_benchmark/trained_checkpoint_inference_results.csv",
+      "bytes": 6483,
+      "type": ".csv"
+    },
+    {
+      "path": "trained_checkpoint_inference_benchmark/trained_checkpoint_inference_results.json",
+      "bytes": 17890,
+      "type": ".json"
+    },
+    {
+      "path": "trained_checkpoint_inference_benchmark/trained_checkpoint_inference_summary.csv",
+      "bytes": 2282,
+      "type": ".csv"
+    },
+    {
+      "path": "trained_checkpoint_inference_benchmark/trained_checkpoint_inference_summary.json",
+      "bytes": 6243,
+      "type": ".json"
+    },
+    {
+      "path": "trained_checkpoint_inference_benchmark/train_imdb_adapter_seed42.json",
+      "bytes": 917,
+      "type": ".json"
+    },
+    {
+      "path": "trained_checkpoint_inference_benchmark/train_imdb_bitfit_seed42.json",
+      "bytes": 916,
+      "type": ".json"
+    },
+    {
+      "path": "trained_checkpoint_inference_benchmark/train_imdb_full_ft_seed42.json",
+      "bytes": 879,
+      "type": ".json"
+    },
+    {
+      "path": "trained_checkpoint_inference_benchmark/train_imdb_hybrid_seed42.json",
+      "bytes": 915,
+      "type": ".json"
+    },
+    {
+      "path": "trained_checkpoint_inference_benchmark/train_imdb_ia3_seed42.json",
+      "bytes": 910,
+      "type": ".json"
+    },
+    {
+      "path": "trained_checkpoint_inference_benchmark/train_imdb_lora_seed42.json",
+      "bytes": 911,
+      "type": ".json"
+    },
+    {
+      "path": "trained_checkpoint_inference_benchmark/train_sst2_adapter_seed42.json",
+      "bytes": 918,
+      "type": ".json"
+    },
+    {
+      "path": "trained_checkpoint_inference_benchmark/train_sst2_bitfit_seed42.json",
+      "bytes": 916,
+      "type": ".json"
+    },
+    {
+      "path": "trained_checkpoint_inference_benchmark/train_sst2_full_ft_seed42.json",
+      "bytes": 879,
+      "type": ".json"
+    },
+    {
+      "path": "trained_checkpoint_inference_benchmark/train_sst2_hybrid_seed42.json",
+      "bytes": 915,
+      "type": ".json"
+    },
+    {
+      "path": "trained_checkpoint_inference_benchmark/train_sst2_ia3_seed42.json",
+      "bytes": 907,
+      "type": ".json"
+    },
+    {
+      "path": "trained_checkpoint_inference_benchmark/train_sst2_lora_seed42.json",
+      "bytes": 910,
+      "type": ".json"
+    }
+  ],
+  "prediction_candidates": [],
+  "log_candidates": [],
+  "unreadable_json": []
+}

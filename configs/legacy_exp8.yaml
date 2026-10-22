@@ -1,0 +1,37 @@
+experiment_name: exp8_model_generalization
+
+seed: 42
+output_dir: outputs/exp8
+
+dataset: sst2
+
+models:
+  - bert-base-uncased
+  - distilbert-base-uncased
+  - roberta-base
+
+max_length: 128
+
+training:
+  num_train_epochs: 1
+  per_device_train_batch_size: 8
+  per_device_eval_batch_size: 16
+  learning_rate: 0.0005
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  logging_steps: 20
+  evaluation_strategy: epoch
+  save_strategy: epoch
+  load_best_model_at_end: true
+  metric_for_best_model: eval_accuracy
+  greater_is_better: true
+
+method: hybrid
+
+hybrid:
+  prefix_virtual_tokens: 10
+  prompt_virtual_tokens: 5
+
+debug:
+  train_size: 500
+  eval_size: 200

@@ -1,0 +1,41 @@
+{
+  "dataset": "imdb",
+  "seed": 42,
+  "train_size": 3000,
+  "validation_size": 500,
+  "heldout_size": 500,
+  "selection_metric": "validation_macro_f1",
+  "trials": [
+    {
+      "learning_rate": 0.0001,
+      "accuracy": 0.812,
+      "macro_f1": 0.8119729241010705,
+      "train_seconds": 1091.03
+    },
+    {
+      "learning_rate": 0.0003,
+      "accuracy": 0.864,
+      "macro_f1": 0.8638235152757974,
+      "train_seconds": 1092.63
+    },
+    {
+      "learning_rate": 0.0005,
+      "accuracy": 0.874,
+      "macro_f1": 0.8737328186442512,
+      "train_seconds": 1095.47
+    },
+    {
+      "learning_rate": 0.001,
+      "accuracy": 0.872,
+      "macro_f1": 0.871473555684082,
+      "train_seconds": 1086.34
+    }
+  ],
+  "selected_lr": 0.0005,
+  "heldout_evaluation": {
+    "learning_rate": 0.0005,
+    "accuracy": 0.872,
+    "macro_f1": 0.8719979519672314,
+    "train_seconds": 1090.47
+  }
+}

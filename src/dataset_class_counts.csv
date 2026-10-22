@@ -1,0 +1,5 @@
+﻿dataset,subset,original_split,data_seed,negative_0,positive_1,total
+sst2,train,train,2026,1318,1682,3000
+sst2,heldout,validation,2026,246,254,500
+imdb,train,train,2026,1477,1523,3000
+imdb,heldout,test,2026,251,249,500

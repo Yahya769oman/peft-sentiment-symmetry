@@ -1,0 +1,22 @@
+experiment_name: exp6_representation_analysis
+
+seed: 42
+output_dir: outputs/exp6
+
+dataset: sst2
+
+model_name: bert-base-uncased
+max_length: 128
+
+method: hybrid
+
+hybrid:
+  prefix_virtual_tokens: 10
+  prompt_virtual_tokens: 5
+
+debug:
+  eval_size: 200
+
+analysis:
+  method: tsne   # tsne أو pca أو both
+  perplexity: 30

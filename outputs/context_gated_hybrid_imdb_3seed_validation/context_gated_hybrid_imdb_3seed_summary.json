@@ -1,0 +1,32 @@
+{
+  "dataset": "imdb",
+  "method": "context_gated_hybrid",
+  "n_runs": 3,
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "official_test_used": false,
+  "learning_rate": 0.0005,
+  "prefix_length": 16,
+  "prompt_length": 20,
+  "eval_accuracy_mean": 0.8406666666666666,
+  "eval_accuracy_std": 0.0070237691685684995,
+  "eval_f1_macro_mean": 0.8404736332378114,
+  "eval_f1_macro_std": 0.006987252876117914,
+  "eval_f1_weighted_mean": 0.8405773378368119,
+  "eval_f1_weighted_std": 0.007001548689903569,
+  "train_time_seconds_mean": 968.9557914733887,
+  "train_time_seconds_std": 5.173690198586322,
+  "peak_train_gpu_allocated_mb_mean": 1136.84326171875,
+  "peak_train_gpu_allocated_mb_std": 0.0,
+  "trainable_params_mean": 321807.0,
+  "trainable_params_std": 0.0,
+  "trainable_ratio_mean": 0.0029307389735826403,
+  "trainable_ratio_std": 0.0,
+  "prompt_gate_mean_mean": 1.223587890625,
+  "prompt_gate_mean_std": 0.04108069480382713,
+  "prefix_gate_overall_mean_mean": 1.9921675347222223,
+  "prefix_gate_overall_mean_std": 0.0016475190678746034
+}

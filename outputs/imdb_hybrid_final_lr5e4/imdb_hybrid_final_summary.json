@@ -1,0 +1,27 @@
+{
+  "dataset": "imdb",
+  "method": "hybrid",
+  "learning_rate": 0.0005,
+  "n_runs": 3,
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "eval_accuracy_mean": 0.8080000000000002,
+  "eval_accuracy_std": 0.005291502622129186,
+  "eval_f1_macro_mean": 0.8079893911088482,
+  "eval_f1_macro_std": 0.005283815057219496,
+  "eval_f1_weighted_mean": 0.8079934021551111,
+  "eval_f1_weighted_std": 0.0052884221515890764,
+  "train_time_seconds_mean": 962.9274723529816,
+  "train_time_seconds_std": 3.811933721105943,
+  "peak_gpu_allocated_mb_mean": 1142.0076497395833,
+  "peak_gpu_allocated_mb_std": 4.083685882426207,
+  "peak_gpu_reserved_mb_mean": 1162.0,
+  "peak_gpu_reserved_mb_std": 0.0,
+  "trainable_params_mean": 311810.0,
+  "trainable_params_std": 0.0,
+  "trainable_ratio_mean": 0.002839953531179513,
+  "trainable_ratio_std": 0.0
+}

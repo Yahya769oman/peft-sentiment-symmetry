@@ -1,0 +1,16 @@
+{
+  "comparison": "IMDb minus SST-2, where each dataset gap is Full FT accuracy minus Hybrid accuracy",
+  "training_seed": 42,
+  "n_sst2": 500,
+  "n_imdb": 500,
+  "sst2_gap": 0.016,
+  "imdb_gap": 0.058,
+  "difference_of_gaps": 0.042,
+  "paired_within_dataset_independent_across_datasets_bootstrap_resamples": 100000,
+  "bootstrap_rng_seed": 20261021,
+  "percentile_95_CI": [
+    0.0,
+    0.08399999999999999
+  ],
+  "note": "Descriptive bootstrap percentile interval; boundary includes zero. Do not claim definitive significance. Single training seed."
+}

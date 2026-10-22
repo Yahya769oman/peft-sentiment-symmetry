@@ -1,0 +1,41 @@
+{
+  "dataset": "sst2",
+  "seed": 42,
+  "train_size": 3000,
+  "validation_size": 500,
+  "heldout_size": 500,
+  "selection_metric": "validation_macro_f1",
+  "trials": [
+    {
+      "learning_rate": 0.0001,
+      "accuracy": 0.564,
+      "macro_f1": 0.36061381074168797,
+      "train_seconds": 1113.94
+    },
+    {
+      "learning_rate": 0.0003,
+      "accuracy": 0.784,
+      "macro_f1": 0.7734291084854994,
+      "train_seconds": 1157.21
+    },
+    {
+      "learning_rate": 0.0005,
+      "accuracy": 0.81,
+      "macro_f1": 0.8037830625539597,
+      "train_seconds": 1138.48
+    },
+    {
+      "learning_rate": 0.001,
+      "accuracy": 0.868,
+      "macro_f1": 0.8650439220689994,
+      "train_seconds": 1931.39
+    }
+  ],
+  "selected_lr": 0.001,
+  "heldout_evaluation": {
+    "learning_rate": 0.001,
+    "accuracy": 0.852,
+    "macro_f1": 0.8515344119157678,
+    "train_seconds": 1090.93
+  }
+}

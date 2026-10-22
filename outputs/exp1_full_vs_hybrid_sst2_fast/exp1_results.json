@@ -1,0 +1,32 @@
+[
+  {
+    "experiment": "exp1",
+    "dataset": "sst2",
+    "method": "full",
+    "status": "success",
+    "total_params": 109483778,
+    "trainable_params": 109483778,
+    "trainable_ratio": 1.0,
+    "eval_accuracy": 0.85,
+    "eval_f1_macro": 0.8497980618386942,
+    "eval_f1_weighted": 0.8500550740439924,
+    "eval_loss": 0.40321263670921326,
+    "train_time_seconds": 2188.6033103466034,
+    "peak_gpu_memory_mb": 0.0
+  },
+  {
+    "experiment": "exp1",
+    "dataset": "sst2",
+    "method": "hybrid",
+    "status": "success",
+    "total_params": 109514498,
+    "trainable_params": 14208002,
+    "trainable_ratio": 0.12973626560384727,
+    "eval_accuracy": 0.84,
+    "eval_f1_macro": 0.83710407239819,
+    "eval_f1_weighted": 0.8381176470588234,
+    "eval_loss": 0.3835456967353821,
+    "train_time_seconds": 1851.1620526313782,
+    "peak_gpu_memory_mb": 0.0
+  }
+]

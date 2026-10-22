@@ -1,0 +1,17 @@
+[
+  {
+    "experiment": "exp1",
+    "dataset": "imdb",
+    "method": "hybrid",
+    "status": "success",
+    "total_params": 109514498,
+    "trainable_params": 32258,
+    "trainable_ratio": 0.0002945546077378723,
+    "eval_accuracy": 0.808,
+    "eval_f1_macro": 0.807306302689683,
+    "eval_f1_weighted": 0.8074912886391007,
+    "eval_loss": 0.4126344621181488,
+    "train_time_seconds": 9162.764072418213,
+    "peak_gpu_memory_mb": 0.0
+  }
+]
